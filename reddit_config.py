@@ -10,3 +10,6 @@ reddit = praw.Reddit("reddit_login")
 moderator_name = "yourmoderatorname"
 
 backup_directory = "Backups"
+
+# List of subreddits to exclude from subreddit list
+excluded_subreddits = ['somesubname', 'AnotherSubname', 'AnotherSubEtc']
